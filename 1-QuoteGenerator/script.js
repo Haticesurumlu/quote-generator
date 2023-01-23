@@ -20,11 +20,20 @@ const quote = localQuotes[Math.floor(Math.random()*localQuotes.length)];
   authorText.textContent=quote.author;
  }
 
- quoteText.textContent=quote.text;
+
+//Check Quote length to determine styling
+if(quote.text.length>120) {
+  quoteText.classList.add('long-quote');
+} else {
+  quoteText.classList.remove('long-quote')
+
+}
+
+quoteText.textContent=quote.text;
 }
 
 
-/*
+
 // Get Quotes From API
 async function getQuotes() {
   const apiUrl = 'https://jacintodesign.github.io/quotes-api/data/quotes.json';
@@ -36,11 +45,16 @@ async function getQuotes() {
 newQuote();
   }
   catch(error) {
-
+//Catch Error Here
   }
 }
-*/
+
 
 //onLoad
 //getQuotes();
-newQuote();
+//Tweet Quote
+function tweetQuote(){
+  const twitterUrl=`https://twitter.com/intent/tweet?text=${quoteText.textContent}-${authorText.textContent}`;
+  window.open(twitterUrl,_blank)
+
+}
