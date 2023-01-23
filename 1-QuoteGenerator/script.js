@@ -11,8 +11,16 @@ let apiQuotes= [];
 //Show New Quote
 function newQuote() {
   //Pick a random quote from apiQuotes array
-  const quote = localQuotes[Math.floor(Math.random()*localQuotes.length)];
-  console.log(quote);
+const quote = localQuotes[Math.floor(Math.random()*localQuotes.length)];
+ authorText.textContent=quote.author;
+ if(!quote.author) {
+  authorText.textContent='Unknown'
+ }
+ else{
+  authorText.textContent=quote.author;
+ }
+
+ quoteText.textContent=quote.text;
 }
 
 
