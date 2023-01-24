@@ -2,7 +2,7 @@
 
 
 ## Description
-
+Using an API to build a random quote generator with Twitter integration.
 
 ## About
 A modified project form the course - 'JavaScript Web Projects: 20 Projects to Build Your Portfolio' by ZTM.
