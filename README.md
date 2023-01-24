@@ -1,8 +1,7 @@
 # Quote Generator
-Using an API to build a random quote generator with Twitter integration.
+
 
 ## Description
-Fetch quotes form a JSON file and chooses one of them at random.
 
 
 ## About
