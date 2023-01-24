@@ -11,8 +11,8 @@ let apiQuotes= [];
 //Show New Quote
 function newQuote() {
   //Pick a random quote from apiQuotes array
-const quote = localQuotes[Math.floor(Math.random()*localQuotes.length)];
- authorText.textContent=quote.author;
+const quote = apiQuotes[Math.floor(Math.random()*localQuotes.length)];
+ 
  if(!quote.author) {
   authorText.textContent='Unknown'
  }
@@ -62,3 +62,5 @@ function tweetQuote(){
 //Event Listeners
 newQuoteBtn.addEventListener('click',newQuote);
 twitterBtn.addEventListener('click',tweetQuote);
+
+getQuotes();
