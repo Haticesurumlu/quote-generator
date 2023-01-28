@@ -4,9 +4,6 @@
 ## Description
 Using an API to build a random quote generator with Twitter integration.
 
-## About
-A modified project form the course - 'JavaScript Web Projects: 20 Projects to Build Your Portfolio' by ZTM.
-
 
 ## Demo
 https://haticesurumlu.github.io/quote-generator/
@@ -15,12 +12,12 @@ https://haticesurumlu.github.io/quote-generator/
 
 ### Logic
 
-- # fetch api
-- # async function
-- # try / catch
-- # css loader / spinner
-- # twitter button => share quote as twitter tweet
-- # encode uri component
+-  fetch api
+-  async function
+-  try / catch
+-  css loader / spinner
+-  twitter button => share quote as twitter tweet
+-  encode uri component
 
 ### Loom 
 
