@@ -7,8 +7,9 @@ Using an API to build a random quote generator with Twitter integration.
 ## About
 A modified project form the course - 'JavaScript Web Projects: 20 Projects to Build Your Portfolio' by ZTM.
 
-Course 
-- https://zerotomastery.io/courses/javascript-projects/
+
+## Demo
+https://haticesurumlu.github.io/quote-generator/
 
 
 
