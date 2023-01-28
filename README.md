@@ -1,9 +1,7 @@
 # Quote Generator
 
-
 ## Description
 Using an API to build a random quote generator with Twitter integration.
-
 
 ## Demo
 https://haticesurumlu.github.io/quote-generator/
